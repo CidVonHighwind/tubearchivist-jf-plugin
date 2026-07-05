@@ -9,6 +9,14 @@
         "imageUrl": "https://raw.githubusercontent.com/tubearchivist/tubearchivist-jf-plugin/master/images/logo.png",
         "versions": [
             {
+                "version": "1.4.5.0",
+                "changelog": "Rebuild against Jellyfin 10.11.11 to fix TypeLoadException/MissingMethodException during playback on recent 10.11.x servers\n",
+                "targetAbi": "10.11.11.0",
+                "sourceUrl": "https://github.com/CidVonHighwind/tubearchivist-jf-plugin/releases/download/v1.4.5/tubearchivistmetadata_1.4.5.0.zip",
+                "checksum": "b314092f6a15642f6f6a7c67734e012d",
+                "timestamp": "2026-07-05T10:15:00Z"
+            },
+            {
                 "version": "1.4.4.0",
                 "changelog": "Handle TubeArchivist playlists pagination\n",
                 "targetAbi": "10.11.0.0",
